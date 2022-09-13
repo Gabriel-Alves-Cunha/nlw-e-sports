@@ -34,20 +34,6 @@
     "checkJs": true,
     "pretty": true,
     "strict": true,
-    "paths": {
-      "@components/*": [
-        "renderer/components/*"
-      ],
-      "@styles/*": [
-        "renderer/styles/*"
-      ],
-      "@utils/*": [
-        "renderer/utils/*"
-      ],
-      "@hooks/*": [
-        "renderer/hooks/*"
-      ],
-    },
     "lib": [
       "ESNext",
     ]
