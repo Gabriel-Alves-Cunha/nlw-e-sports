@@ -1,0 +1,55 @@
+{
+	"compilerOptions": {
+		"noPropertyAccessFromIndexSignature": true,
+		"forceConsistentCasingInFileNames": true,
+		"allowSyntheticDefaultImports": true,
+		"strictPropertyInitialization": true,
+		"noFallthroughCasesInSwitch": true,
+		"exactOptionalPropertyTypes": true,
+		"noUncheckedIndexedAccess": true,
+		"experimentalDecorators": false,
+		"moduleResolution": "NodeNext",
+		"strictFunctionTypes": true,
+		"strictBindCallApply": true,
+		"preserveConstEnums": true,
+		"noUnusedParameters": true,
+		"resolveJsonModule": true,
+		"noImplicitReturns": true,
+		"noErrorTruncation": true,
+		"strictNullChecks": true,
+		"esModuleInterop": true,
+		"isolatedModules": true,
+		"noImplicitThis": true,
+		"removeComments": true,
+		"noImplicitAny": true,
+		"alwaysStrict": true,
+		"skipLibCheck": true,
+		"module": "NodeNext",
+		"target": "ESNext",
+		"baseUrl": "./src",
+		"sourceMap": false,
+		"allowJs": true,
+		"checkJs": true,
+		"pretty": true,
+		"strict": true,
+		"types": [
+			"vitest/importMeta"
+		],
+		"paths": {
+			"@routes/*": [
+				"renderer/routes/*"
+			],
+			"@utils/*": [
+				"renderer/utils/*"
+			],
+		},
+		"lib": [
+			"ESNext",
+		]
+	},
+	"exclude": [
+		"**/node_modules",
+		"**/build/*",
+		"**/.*/"
+	]
+}
