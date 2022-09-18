@@ -61,6 +61,8 @@
     ]
   },
   "exclude": [
+    "tailwind.config.cjs",
+    "postcss.config.cjs",
     "**/node_modules",
     "**/build/*",
     "**/.*/"

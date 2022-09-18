@@ -1,13 +1,16 @@
-import express from "express";
+import express, { json } from "express";
+import cors from "cors";
+
+import { router } from "./routes.js";
 
 export const app = express();
 
-app.get("/adds", (req, res) => {
-	return res.json([
-		{ id: 1, name: "Anúncio 1" },
-		{ id: 2, name: "Anúncio 2" },
-		{ id: 3, name: "Anúncio 3" },
-	]);
-});
+app.use(json());
+app.use(
+	cors({
+		// origin: "https://example.com"
+	})
+);
+app.use(router);
 
 app.listen(3_000);
