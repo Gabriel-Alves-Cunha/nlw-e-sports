@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import * as Dialog from "@radix-ui/react-dialog";
 
-import { BannerOfCreateAd } from "components/BannerOfCreateAd";
-import { ModalOfCreateAd } from "components/ModalOfCreateAd";
-import { GameBanner } from "components/GameBanner";
+import { BannerOfCreateAd } from "@components/BannerOfCreateAd";
+import { ModalOfCreateAd } from "@components/ModalOfCreateAd";
+import { GameBanner } from "@components/GameBanner";
 
 import logoImg from "@assets/logo-nlw-esports.png";
 

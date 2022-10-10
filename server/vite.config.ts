@@ -36,6 +36,7 @@ export default defineConfig(({ mode }) => {
 		},
 
 		define: isTest ? {} : { "import.meta.vitest": "undefined" },
+		server: { port: 3_333 },
 		envDir: "./",
 		base: "./",
 
